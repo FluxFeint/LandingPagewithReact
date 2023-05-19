@@ -7,6 +7,7 @@ const Greetings = (props) => {
 
   switch (language) {
     //mensaje de cada lenguaje que pide Óscar
+    //componente sin usar en el resultado final
     case "de":
       greeting = `Hallo ${children}`;
       break;
